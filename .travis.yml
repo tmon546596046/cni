@@ -8,10 +8,7 @@ go:
 env:
   matrix:
   - TARGET=amd64
-  - TARGET=arm
-  - TARGET=arm64
-  - TARGET=ppc64le
-  - TARGET=s390x
+  - TARGET=mips64le
 
 matrix:
   fast_finish: true
