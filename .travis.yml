@@ -7,7 +7,6 @@ go:
 
 env:
   matrix:
-  - TARGET=amd64
   - TARGET=mips64le
 
 matrix:
